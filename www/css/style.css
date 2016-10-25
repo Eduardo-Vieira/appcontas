@@ -1,0 +1,14 @@
+/* Empty. Add your own CSS if you like */
+.bnt-plus{
+    border-radius: 50%;
+    left: 75%;
+    top:75%;
+    position: absolute;
+
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:30px; 
+    padding-right: 30px;
+    background-color: dodgerblue;
+    color: white;
+}

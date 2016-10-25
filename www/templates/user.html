@@ -1,0 +1,20 @@
+<ion-view view-title="Usuário">
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <button class="button button-assertive" ng-click="showConfirm()">Remover todos os itens</button>
+        <button class="button button-stable" ng-click="selectAll()">Atualizar</button> 
+        
+      </ion-item>
+      
+    </ion-list>
+     
+    <ion-list>
+      <ion-item ng-repeat="allUsuario in allUsuarios" href="">
+        {{allUsuario.id_usuario}} - {{allUsuario.tx_nome}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  <!--botão add novo registro-->
+ <a class="bnt-plus" ng-click="novo()"><i class="icon ion-plus"></i></a>
+</ion-view>
